@@ -1,10 +1,11 @@
 .View-Portfolio {
-    background-color: rgb(72, 156, 72);
+    background-color: rgb(72, 156, 72) !important; /* "!important" should be avoided */
     color: aliceblue;
     border: rgb(62, 165, 235);
     border-style: solid;
     border-width: 1px;
     border-radius: 5px;
+    margin-top: -px;
     height: 28px;
     width: 120px;
     font-weight: bold;
@@ -15,7 +16,11 @@
     opacity: 0.7;
 }
 
-body{
+#motivation{
+    color: red;
+}
+
+#frontpage{
     background-image: url(/images/background-wedding.jpeg);
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -24,5 +29,12 @@ body{
 
 img{
     width: 500px;
+}
 
+
+#pricing{
+    color: green;
+    font-size: 30px;
+    font-style: italic;
+    text-align: left;
 }
